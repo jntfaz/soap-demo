@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.dkstudio</groupId>
+
+	<artifactId>snippets</artifactId>
+
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>Simple SOAP Client</name>
+
+	<description>A simple SOAP Client class to send request body to a SOAP Server. 
+
+	Useful when you want to test a SOAP server and you don't want to generate all SOAP client class from the WSDL.</description>
+
+
+
+	<developers>
+
+		<developer>
+
+			<id>delfour.k</id>
+
+			<name>Kevin DELFOUR</name>
+
+			<email>delfour.k@gmail.com</email>
+
+			<organization>DK</organization>
+
+			<organizationUrl>http://kevin.delfour.eu</organizationUrl>
+
+		</developer>
+
+	</developers>
+
+
+
+	<organization>
+
+		<name>DK</name>
+
+		<url>http://kevin.delfour.eu</url>
+
+	</organization>
+
+
+
+	<properties>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<project.build.sourceVersion>1.7</project.build.sourceVersion>
+
+	</properties>
+
+
+
+	<dependencies>
+
+		<dependency>
+
+			<groupId>log4j</groupId>
+
+			<artifactId>log4j</artifactId>
+
+			<version>1.2.17</version>
+
+		</dependency>
+
+	</dependencies>
+
+
+
+</project>
